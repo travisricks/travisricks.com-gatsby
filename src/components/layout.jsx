@@ -1,10 +1,11 @@
 import React from "react";
+import Header from "./header";
 import "../styles/styles.css";
 
 const Layout = ({ children }) => (
   <>
-    <header></header>
-    <main>{children}</main>
+    <Header />
+    <main className="container mx-auto">{children}</main>
   </>
 );
 
